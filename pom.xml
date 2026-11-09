@@ -18,7 +18,7 @@
              one classified jar per platform; the classifier is set by the OS/arch-activated
              profiles below, with deliberately no default so an unsupported platform fails at
              dependency resolution. -->
-        <rondb.version>26.02.10</rondb.version>
+        <rondb.version>26.02.14</rondb.version>
         <!-- hops-enterprise's jackson2.version (hadoop-project/pom.xml). hops-enterprise
              manages jackson-core there, but that does not reach this consumer: avro's
              jackson-core 2.14.3 wins over the one jackson-databind needs, and the NameNode's
