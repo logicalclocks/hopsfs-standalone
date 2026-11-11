@@ -12,7 +12,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hadoop.version>3.4.3.4-EE-SNAPSHOT</hadoop.version>
+        <hadoop.version>3.4.3.5-EE-SNAPSHOT</hadoop.version>
         <!-- RonDB release the libndbclient native library comes from; must match the
              clusterj-rondb version hops-metadata-dal-impl-ndb depends on. libndbclient has
              one classified jar per platform; the classifier is set by the OS/arch-activated
